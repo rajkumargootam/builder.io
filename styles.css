@@ -1,0 +1,18 @@
+#landing  {
+	background-color: #A18BCC;
+	color: #FFF;
+	text-align: center;
+} 
+
+#landing nav a {
+	color: #FFF;
+} 
+#landing a.action {
+	background-color: #4BD9DD;
+	color: #FFF;
+	border-radius: 2px;
+	width: 12em;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: bold;
+} 
