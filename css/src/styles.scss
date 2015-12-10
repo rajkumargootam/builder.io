@@ -1,5 +1,5 @@
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Sintony', sans-serif;
 }
 
 
@@ -8,11 +8,12 @@ body{
 	background-color: #A18BCC;
 	color: #FFF;
 	text-align: center;
-	padding: 0.5em 0;
+	padding-top: 3em;
 	nav a {
  	color: #FFF;
 	text-decoration: none;
 	margin-left:1.5em;
+	text-align: right;
 
 	&.active {
 		font-weight: bold;
@@ -20,11 +21,12 @@ body{
 		padding-bottom: 0.5em;
 	}
  }
+ }
  h1 {
-	 font-size: 3em;
+	 font-size: 4em;
 	 margin-top: 2em;
  }
- p{
+ p.tagline {
 	 font-size: 1.3em;
 	 margin: 1em 0;
  }
@@ -37,5 +39,38 @@ body{
  	font-weight: bold;
 	padding:1em;
  }
+ .image-container {
+	 position: relative;
+img {
+	margin-top: 5em;
+}
+.caption {
+	position: absolute;
+	bottom: 1em;
+	left: 2em;
+	text-align: left;
+p.title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 0
+}
+}
+.likes {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	font-size: 1.8em;
 
+	i{
+		margin-right: 0.2em;
+	}
+}
+.edit {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	font-size: 2em;
+	background-color: rgba(0,0,0,0.5);
+	padding: 0.3em;
+}
 }
