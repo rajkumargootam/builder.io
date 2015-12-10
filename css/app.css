@@ -1,5 +1,23 @@
 body {
-  font-family: 'Sintony', sans-serif; }
+  font-family: 'Sintony', sans-serif;
+  color: #ABB0B4; }
+
+.btn-solid {
+  color: #FFF;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em; }
+  .btn-solid:hover {
+    color: #FFF; }
+
+.btn-outline {
+  color: #A18BCC;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em;
+  border: 1px solid #A18BCC; }
 
 #landing {
   background-color: #A18BCC;
@@ -26,12 +44,8 @@ p.tagline {
 
 a.action {
   background-color: #4BD9DD;
-  color: #FFF;
   border-radius: 2px;
-  width: 12em;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 1em; }
+  width: 12em; }
 
 .image-container {
   position: relative; }
@@ -61,4 +75,18 @@ a.action {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0.3em; }
 
-/*# sourceMappingURL=styles.css.map */
+#intro {
+  text-align: center;
+  padding: 2em 0; }
+  #intro .get-started {
+    background-color: #A18BCC;
+    padding: 1em 3em; }
+  #intro .try-demo {
+    padding: 1em 3em;
+    margin-left: 2em; }
+  #intro h2 {
+    margin: 2em 0 0.7em; }
+  #intro p {
+    font-size: 1.2em; }
+
+/*# sourceMappingURL=app.css.map */

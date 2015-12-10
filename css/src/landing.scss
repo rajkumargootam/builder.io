@@ -1,23 +1,17 @@
-body{
-	font-family: 'Sintony', sans-serif;
-}
-
-
-
 #landing  {
-	background-color: #A18BCC;
-	color: #FFF;
+	background-color: $primary-color;
+	color: $light-font-color;
 	text-align: center;
 	padding-top: 3em;
 	nav a {
- 	color: #FFF;
+ 	color: $light-font-color;
 	text-decoration: none;
 	margin-left:1.5em;
 	text-align: right;
 
 	&.active {
 		font-weight: bold;
-		border-bottom: 2px solid #FFF;
+		border-bottom: 2px solid $light-font-color;
 		padding-bottom: 0.5em;
 	}
  }
@@ -32,13 +26,9 @@ body{
  }
  a.action {
  	background-color: #4BD9DD;
- 	color: #FFF;
  	border-radius: 2px;
  	width: 12em;
- 	text-transform: uppercase;
- 	font-weight: bold;
-	padding:1em;
- }
+}
  .image-container {
 	 position: relative;
 img {
