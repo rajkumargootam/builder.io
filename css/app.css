@@ -8,17 +8,19 @@ body {
   border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1em; }
+  padding: 1em 3em; }
   .btn-solid:hover {
     color: #FFF; }
 
 .btn-outline {
-  color: #A18BCC;
+  color: #ABB0B4;
   border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1em;
-  border: 1px solid #ABB0B4; }
+  padding: 1em 3em;
+  border: 2px solid #ABB0B4; }
+  .btn-outline:hover {
+    color: #ABB0B4; }
 
 #landing {
   background-color: #A18BCC;
@@ -45,7 +47,6 @@ p.tagline {
 
 a.action {
   background-color: #4BD9DD;
-  border-radius: 2px;
   width: 12em; }
 
 .image-container {
@@ -80,11 +81,9 @@ a.action {
   text-align: center;
   padding: 2em 0; }
   #intro .get-started {
-    background-color: #A18BCC;
-    padding: 1em 3em; }
+    background-color: #A18BCC; }
   #intro .try-demo {
-    padding: 1em 3em;
-    margin-left: 2em; }
+    margin-left: 1em; }
   #intro h2 {
     margin: 2em 0 0.7em; }
   #intro p {
@@ -95,6 +94,21 @@ a.action {
   background-image: url("../images/slanted-phone.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
-  padding: 5em 0 14em; }
+  padding: 5em 0 20em; }
+
+#take-look {
+  background-color: #A18BCC;
+  text-align: center;
+  padding: 2em 0;
+  color: #FFF; }
+  #take-look h2 {
+    text-transform: uppercase; }
+  #take-look p {
+    margin-bottom: 2em; }
+  #take-look a.take-my-money {
+    background-color: #4BD9DD; }
+  #take-look a.free-account {
+    color: #FFF;
+    border-color: #FFF; }
 
 /*# sourceMappingURL=app.css.map */
