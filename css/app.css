@@ -106,9 +106,20 @@ a.action {
   #take-look p {
     margin-bottom: 2em; }
   #take-look a.take-my-money {
-    background-color: #4BD9DD; }
+    background-color: #4BD9DD;
+    margin-right: 2em; }
   #take-look a.free-account {
     color: #FFF;
     border-color: #FFF; }
+
+#video-demo {
+  position: relative; }
+  #video-demo img {
+    width: 100%; }
+  #video-demo i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8vw; }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,14 @@
+#video-demo {
+  position: relative;
+
+  img{
+    width: 100%;
+  }
+
+  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8vw;
+  }
+}
