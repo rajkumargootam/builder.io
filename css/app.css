@@ -133,4 +133,86 @@ a.action {
     color: #A18BCC;
     font-weight: bold; }
 
+#pricing {
+  text-align: center;
+  padding: 4em 0; }
+  #pricing h2 {
+    text-transform: uppercase;
+    color: #A18BCC; }
+  #pricing p.caption {
+    color: #A18BCC;
+    margin-bottom: 2em;
+    font-weight: bold; }
+  #pricing .price-option {
+    border: 1px solid #ABB0B4;
+    border-radius: 10px;
+    height: 44em;
+    position: relative; }
+    #pricing .price-option h3 {
+      background-color: #A18BCC;
+      color: #FFF;
+      margin: 0;
+      padding: 0.6em;
+      text-transform: uppercase;
+      border-radius: 10px 10px 0 0; }
+    #pricing .price-option p.description {
+      font-weight: bold;
+      margin: 2em 3em 1em; }
+    #pricing .price-option p.price {
+      color: #4BD9DD;
+      font-size: 2.7em; }
+      #pricing .price-option p.price span {
+        font-size: 0.5em;
+        color: #ABB0B4;
+        position: relative;
+        top: -0.3em;
+        font-weight: bold; }
+    #pricing .price-option .reason {
+      border-top: 2px solid #d3d6d8;
+      padding: 1em;
+      margin: 0 2em;
+      font-weight: bold; }
+    #pricing .price-option a.signup {
+      margin: 0.2em;
+      position: absolute;
+      bottom: 2em;
+      left: 2em;
+      right: 2em; }
+      #pricing .price-option a.signup.btn-outline {
+        color: #A18BCC;
+        border-color: #A18BCC; }
+  #pricing .user_count {
+    color: #A18BCC;
+    margin-top: 1em;
+    font-size: 1.2em; }
+    #pricing .user_count span {
+      font-size: 1.3em;
+      font-weight: bold;
+      position: relative;
+      top: 0.1em; }
+
+#mountains img {
+  width: 100%; }
+#mountains .take-my-money {
+  background-color: #A18BCC;
+  padding: 3em 0;
+  text-align: center; }
+  #mountains .take-my-money a {
+    background-color: #4BD9DD; }
+
+footer {
+  border-bottom: 100px solid #ccc0e3;
+  padding: 3em 0; }
+  footer a {
+    display: block;
+    font-weight: bold;
+    margin: 0.5em 0; }
+    footer a, footer a:hover {
+      color: #ABB0B4; }
+  footer .pencil-container {
+    text-align: center; }
+    footer .pencil-container i {
+      font-size: 4em;
+      transform: rotate(-45deg); }
+
 /*# sourceMappingURL=app.css.map */
